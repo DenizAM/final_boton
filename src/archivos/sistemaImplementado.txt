@@ -1,0 +1,41 @@
+import React from 'react'
+import DocViewer from "react-doc-viewer";
+
+const SistemaImplementado = () => {
+
+  const docs = [
+    { uri: require("../archivos/modificaciones.docx"), // Local File
+      fileType: 'docx',
+      fileName: 'modificaciones.docx'
+    },
+  ];
+
+
+  return (
+        <div className='sistemaImplementado'>
+            <DocViewer documents={docs} />;  //primera forma se descarga
+
+
+
+            <DocumentViewer className='visualizador1'
+              viewerUrl={'https://docs.google.com/document/d/1R_ZCdoKKikTOk8gavM7X4cEItw2odNFC/edit?usp=sharing&ouid=102850210087043761601&rtpof=true&sd=true'}
+              viewer="url"
+              >
+            </DocumentViewer> //Segunda forma se ve visualiza y jala doc drive
+
+
+
+            <iframe className='visualizador2' src="https://1drv.ms/w/c/6e5d65377d88b7f4/IQP0t4h9N2VdIIBuagAAAAAAAf1oiovGR6fWlT2Lw3xTnxU?em=2" width="476px" height="288px" frameborder="0">Esto es un documento de <a target="_blank" href="https://office.com">Microsoft Office</a> incrustado con tecnología de <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+        </div> //visualizador insertado
+  )
+}
+
+export default SistemaImplementado
+
+
+const docs = [
+    { uri: require("../archivos/modificaciones.docx"), // Local File
+      fileType: 'docx',
+      fileName: 'modificaciones.docx'
+    },
+  ];
