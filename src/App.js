@@ -7,25 +7,25 @@ import SistemaImplementado from './paginas/SistemaImplementado';
 import Modificaciones from './paginas/Modificaciones';
 
 
-import ActPreliminarU1 from './paginas/Unidad 1/ActPreliminarU1';
-import Act2U1 from './paginas/Unidad 1/Act2U1';
-import ActIntegradoraU1 from './paginas/Unidad 1/ActIntegradoraU1';
+import ActPreliminarU1 from './paginas/Unidad1/ActPreliminarU1';
+import Act2U1 from './paginas/Unidad1/Act2U1';
+import ActIntegradoraU1 from './paginas/Unidad1/ActIntegradoraU1';
 
 
-import Actividad1Unidad2 from './paginas/Unidad 2/Actividad1Unidad2';
-import Actividad2Unidad2 from './paginas/Unidad 2/Actividad2Unidad2';
-import ActividadIntegradoraU2 from './paginas/Unidad 2/ActividadIntegradoraU2';
+import Actividad1Unidad2 from './paginas/Unidad2/Actividad1Unidad2';
+import Actividad2Unidad2 from './paginas/Unidad2/Actividad2Unidad2';
+import ActividadIntegradoraU2 from './paginas/Unidad2/ActividadIntegradoraU2';
 
 
-import Actividad1Unidad3 from './paginas/Unidad 3/Actividad1Unidad3';
-import Actividad2Unidad3 from './paginas/Unidad 3/Actividad2Unidad3';
-import Actividad3Unidad3 from './paginas/Unidad 3/Actividad3Unidad3';
-import ActPreliminarU3 from './paginas/Unidad 3/ActPreliminarU3';
-import ActIntegradoraU3 from './paginas/Unidad 3/ActIntegradoraU3';
+import Actividad1Unidad3 from './paginas/Unidad3/Actividad1Unidad3';
+import Actividad2Unidad3 from './paginas/Unidad3/Actividad2Unidad3';
+import Actividad3Unidad3 from './paginas/Unidad3/Actividad3Unidad3';
+import ActPreliminarU3 from './paginas/Unidad3/ActPreliminarU3';
+import ActIntegradoraU3 from './paginas/Unidad3/ActIntegradoraU3';
 
 
-import Actvidad1Unidad4 from './paginas/Unidad 4/Actvidad1Unidad4';
-import Actvidad2Unidad4 from './paginas/Unidad 4/Actvidad2Unidad4';
+import Actvidad1Unidad4 from './paginas/Unidad4/Actvidad1Unidad4';
+import Actvidad2Unidad4 from './paginas/Unidad4/Actvidad2Unidad4';
 
 import ProductoFinal from './paginas/ProductoFinal';
 

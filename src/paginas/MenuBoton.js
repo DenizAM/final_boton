@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../App.css';
+import {Link} from 'react-router-dom';
 
 const MenuBoton = () => {
 
@@ -37,39 +38,39 @@ const MenuBoton = () => {
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Unidad 1</a></li>
                         <ul> 
-                            <li><a class="dropdown-item" href="/ActPreliminarU1">Actividad preliminar</a></li>
-                            <li><a class="dropdown-item" href="/Act2U1">Actividad 2. El product backlog</a></li>
-                            <li><a class="dropdown-item" href="/ActIntegradoraU1">Actividad integradora. Sprint, el corazón de SCRUM</a></li>
+                            <li><Link class="dropdown-item" to="/ActPreliminarU1">Actividad preliminar</Link></li>
+                            <li><Link class="dropdown-item" to="/Act2U1">Actividad 2. El product backlog</Link></li>
+                            <li><Link class="dropdown-item" to="/ActIntegradoraU1">Actividad integradora. Sprint, el corazón de SCRUM</Link></li>
                         </ul>
                     <li><a class="dropdown-item" href="#">Unidad 2</a></li>
                         <ul> 
-                            <li><a class="dropdown-item" href="/Actividad1Unidad2">Actividad 1. Aplicación de SCRUM</a></li>
-                            <li><a class="dropdown-item" href="/Actividad2Unidad2">Actividad 2. El sprint Shedule</a></li>
-                            <li><a class="dropdown-item" href="/ActividadIntegradoraU2">Actividad 2. El sprint Shedule</a></li>
+                            <li><Link class="dropdown-item" to="/Actividad1Unidad2">Actividad 1. Aplicación de SCRUM</Link></li>
+                            <li><Link class="dropdown-item" to="/Actividad2Unidad2">Actividad 2. El sprint Shedule</Link></li>
+                            <li><Link class="dropdown-item" to="/ActividadIntegradoraU2">Actividad 2. El sprint Shedule</Link></li>
                         </ul>
                     <li><a class="dropdown-item" href="#">Unidad 3</a></li>
                         <ul> 
-                            <li><a class="dropdown-item" href="/ActPreliminarU3">Actividad preliminar. Retomando mi primer sprint</a></li>
-                            <li><a class="dropdown-item" href="/Actividad1Unidad3">Actividad 1. Primera fase de desarrollo, revisión y ajuste de los Sprints</a></li>
-                            <li><a class="dropdown-item" href="/Actividad2Unidad3">Actividad 2. Segunda fase de desarrollo, revisión y ajuste de los Sprints y el backlog</a></li>
-                            <li><a class="dropdown-item" href="/Actividad3Unidad3">Actividad 3. Tercera fase de desarrollo, revisión y ajuste de los Sprints y el backlog</a></li>
-                            <li><a class="dropdown-item" href="/ActIntegradoraU3">Actividad integradora. Producto final U3</a></li>
+                            <li><Link class="dropdown-item" to="/ActPreliminarU3">Actividad preliminar. Retomando mi primer sprint</Link></li>
+                            <li><Link class="dropdown-item" to="/Actividad1Unidad3">Actividad 1. Primera fase de desarrollo, revisión y ajuste de los Sprints</Link></li>
+                            <li><Link class="dropdown-item" to="/Actividad2Unidad3">Actividad 2. Segunda fase de desarrollo, revisión y ajuste de los Sprints y el backlog</Link></li>
+                            <li><Link class="dropdown-item" to="/Actividad3Unidad3">Actividad 3. Tercera fase de desarrollo, revisión y ajuste de los Sprints y el backlog</Link></li>
+                            <li><Link class="dropdown-item" to="/ActIntegradoraU3">Actividad integradora. Producto final U3</Link></li>
                         </ul>
                     <li><a class="dropdown-item" href="#">Unidad 4</a></li>
                         <ul> 
-                            <li><a class="dropdown-item" href="/Actvidad1Unidad4">Actividad 1. Reunión de revisión inicial</a></li>
-                            <li><a class="dropdown-item" href="/Actvidad2Unidad4">Actividad 2. Reunión para revisión de modificaciones</a></li>
+                            <li><Link class="dropdown-item" to="/Actvidad1Unidad4">Actividad 1. Reunión de revisión inicial</Link></li>
+                            <li><Link class="dropdown-item" to="/Actvidad2Unidad4">Actividad 2. Reunión para revisión de modificaciones</Link></li>
                         </ul>
-                    <li><a class="dropdown-item" href="/ProductoFinal">Producto integrador. El final del proceso</a></li>
+                    <li><Link class="dropdown-item" to="/ProductoFinal">Producto integrador. El final del proceso</Link></li>
                   </ul>
                 </div>
 
 
 
-                <a class="btn btn-primary" href="https://denizam.github.io/app-coatepec/" role="button">Sistema Implementado</a>
+                <Link class="btn btn-primary" to="https://denizam.github.io/app-coatepec/" role="button">Sistema Implementado</Link>
                 <button type="button" onClick={handleClick2} class="btn btn-primary">Código Fuente</button>
                 <button type="button" onClick={handleClick3}  class="btn btn-primary">Reporte de Modificaciones</button>
-                <a class="btn btn-primary" href="https://github.com/DenizAM/app-coatepec" role="button">Respositorio GitHub</a>
+                <Link class="btn btn-primary" to="https://github.com/DenizAM/app-coatepec" role="button">Respositorio GitHub</Link>
 
             </div>
 
