@@ -67,7 +67,7 @@ const MenuBoton = () => {
 
 
 
-                <Link class="btn btn-primary" to="https://denizam.github.io/app-coatepec/" role="button">Sistema Implementado</Link>
+                <a class="btn btn-primary" href="https://denizam.github.io/app-coatepec/" role="button">Sistema Implementado</a>
                 <button type="button" onClick={handleClick2} class="btn btn-primary">Código Fuente</button>
                 <button type="button" onClick={handleClick3}  class="btn btn-primary">Reporte de Modificaciones</button>
                 <Link class="btn btn-primary" to="https://github.com/DenizAM/app-coatepec" role="button">Respositorio GitHub</Link>
