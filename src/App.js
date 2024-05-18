@@ -63,7 +63,7 @@ function App() {
                 <Route path='Actvidad2Unidad4' exact Component={Actvidad2Unidad4}/>  
 
 
-                <Route path='/' exact Component={ProductoFinal}/>  
+                <Route path='ProductoFinal' exact Component={ProductoFinal}/>  
             </Routes>
         </Router>
 
